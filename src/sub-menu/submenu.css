@@ -1,0 +1,67 @@
+.submenu-container {
+  width: 350px;
+  border-right: 1px solid gray;
+  height: 100vh;
+}
+.submenu-header {
+  display: flex;
+  margin: 5px 10px;
+  padding: 10px;
+  border-bottom: 1px solid gray;
+}
+.submenu-header img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-right: auto;
+  position: relative;
+}
+.submenu-header1 {
+  display: flex;
+  align-items: center;
+}
+.submenu-card {
+  padding: 10px 25px;
+  display: flex;
+}
+.submenu-card p {
+  margin-right: auto;
+}
+.login-sign {
+  width: 15px;
+  height: 15px;
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: gray;
+  position: absolute;
+  left: 55px;
+  top: 115px;
+}
+.submenu-title {
+  display: flex;
+  align-items: center;
+  padding: 5px 25px;
+}
+.submenu-logo {
+  margin-right: 8px;
+}
+.first-title {
+  margin-right: auto;
+}
+.submenu-child {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 25px 5px 60px;
+}
+.submenu-littleChild {
+  display: flex;
+}
+.submenu-littleChild p {
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+.hide {
+  display: none;
+  transition: all 0.5s ease-in;
+}
